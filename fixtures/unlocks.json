@@ -1,0 +1,62 @@
+[
+  {
+    "token_symbol": "TOKEN-A",
+    "unlock_date": "2026-06-25",
+    "unlock_amount": 60000000,
+    "unlock_type": "investor"
+  },
+  {
+    "token_symbol": "TOKEN-A",
+    "unlock_date": "2026-07-20",
+    "unlock_amount": 12000000,
+    "unlock_type": "ecosystem"
+  },
+  {
+    "token_symbol": "TOKEN-A",
+    "unlock_date": "2026-08-15",
+    "unlock_amount": 5000000,
+    "unlock_type": "community"
+  },
+  {
+    "token_symbol": "TOKEN-B",
+    "unlock_date": "2026-06-28",
+    "unlock_amount": 90000000,
+    "unlock_type": "team"
+  },
+  {
+    "token_symbol": "TOKEN-B",
+    "unlock_date": "2026-07-12",
+    "unlock_amount": 20000000,
+    "unlock_type": "investor"
+  },
+  {
+    "token_symbol": "TOKEN-B",
+    "unlock_date": "2026-08-05",
+    "unlock_amount": 4000000,
+    "unlock_type": "ecosystem"
+  },
+  {
+    "token_symbol": "TOKEN-C",
+    "unlock_date": "2026-06-30",
+    "unlock_amount": 40000000,
+    "unlock_type": "team"
+  },
+  {
+    "token_symbol": "TOKEN-C",
+    "unlock_date": "2026-07-18",
+    "unlock_amount": 10000000,
+    "unlock_type": "investor"
+  },
+  {
+    "token_symbol": "TOKEN-C",
+    "unlock_date": "2026-08-22",
+    "unlock_amount": 2000000,
+    "unlock_type": "ecosystem"
+  },
+  {
+    "token_symbol": "TOKEN-C",
+    "unlock_date": "2026-09-10",
+    "unlock_amount": 15000000,
+    "unlock_type": "treasury"
+  }
+]

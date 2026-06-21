@@ -1,0 +1,17 @@
+{
+  "TOKEN-A": {
+    "symbol": "TOKEN-A",
+    "circulating_supply": 500000000,
+    "total_supply": 1000000000
+  },
+  "TOKEN-B": {
+    "symbol": "TOKEN-B",
+    "circulating_supply": 400000000,
+    "total_supply": 750000000
+  },
+  "TOKEN-C": {
+    "symbol": "TOKEN-C",
+    "circulating_supply": 300000000,
+    "total_supply": 600000000
+  }
+}

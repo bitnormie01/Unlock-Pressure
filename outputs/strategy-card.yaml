@@ -1,0 +1,25 @@
+token: TOKEN-A
+unlock_date: '2026-06-25'
+unlock_amount: 60000000.0
+unlock_type: investor
+pressure: HIGH
+impact:
+  supply_ratio_pct: 12.0
+  volume_ratio_pct: 300.0
+  unlock_value_usd: 60000000.0
+history:
+  sample_size: 3
+  median_pre_3d_pct: 3.0000000000000027
+  median_post_1d_pct: -6.000000000000005
+  median_post_3d_pct: -8.999999999999996
+  median_post_5d_pct: -12.0
+  median_post_7d_pct: -13.0
+strategy:
+  position_reduction_pct: 0.5
+  pre_event_days: 3
+  max_drawdown_stop: -0.15
+  entry_rule: Re-enter after volume normalizes near the 30-day average and daily range
+    contracts below 2x its recent average.
+  exit_rule: Reduce exposure 3 days before unlock.
+  position_sizing: Reduce spot exposure by 50% for HIGH pressure.
+  invalidation: Invalidate if unlock is absorbed with < 1% price drop within 24h.

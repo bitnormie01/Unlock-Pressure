@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unlock-pressure"
+version = "0.1.0"
+description = "Fixture-backed token unlock pressure strategy skill."
+requires-python = ">=3.10"
+dependencies = [
+  "PyYAML>=6.0,<7.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0,<9.0",
+]
+
+[tool.setuptools]
+packages = ["unlock_pressure"]
+
+[tool.setuptools.package-dir]
+unlock_pressure = "src"
